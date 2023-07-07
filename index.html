@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/elzero.css" />
+    <title>ToDOList</title>
+  </head>
+  <style>
+    body {
+      margin: 0;
+      direction: rtl;
+      background-color: rgb(74, 27, 118);
+      font-family: "Courier New", Courier, monospace;
+      line-height: 1.5;
+    }
+
+    .body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .container {
+      width: 60%;
+      margin-top: 50px;
+    }
+
+    .header {
+      text-align: center;
+      background-color: rgb(117, 0, 251);
+    }
+
+    h2 {
+      display: inline;
+    }
+
+    button {
+      float: right;
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      border: none;
+      margin-right: 20px;
+      margin-top: 5px;
+
+      background-color: rgb(253, 253, 253);
+    }
+    .dt {
+      background-color: rgb(245, 245, 245);
+      padding: 10px;
+    }
+    .table {
+      display: flex;
+      background-color: rgb(211, 206, 206);
+      padding: 10px;
+      border-radius: 20px;
+    }
+    .info {
+      width: 60%;
+    }
+    .buttons {
+      display: flex;
+      margin-right: 0px;
+      justify-content: space-evenly;
+      width: 25%;
+    }
+    #add {
+      margin-top: 2px;
+    }
+    .done {
+      background-color: rgb(158, 253, 160);
+    }
+  </style>
+
+  <body>
+    <div class="body">
+      <div class="container">
+        <div class="header">
+          <h2>المهام</h2>
+          <button id="add">+</button>
+        </div>
+        <div id="dt" class="dt">
+          <!-- <div id="table" class="table" style="margin-bottom: 10px">
+            <div class="info"> <span style="font-size: 20px; font-weight:bold; ">المهمه</span>
+              <div class="date" style="font-size: 10px; font-weight:bold;">10/10/2020</div>
+            </div>
+            <div class="buttons">
+              <button>+</button>
+              <button>-</button>
+              <button>E</button>
+            </div>
+          </div> -->
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="main.js"></script>
+</html>
